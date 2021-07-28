@@ -15,11 +15,15 @@
 <!-- BEGIN TOC -->
 
 - deep-flat
+  - template-deep-flat
+    - [solution-deep-flat.js](#srcdeep-flattemplate-deep-flatsolution-deep-flatjs)
   - template-solution
     - [deepFlat.js](#srcdeep-flattemplate-solutiondeepFlatjs)
 - difference
-  - template-solution
-    - [difference.js](#srcdifferencetemplate-solutiondifferencejs)
+  - difference-moamin
+    - [difference.js](#srcdifferencedifference-moamindifferencejs)
+  - difference-tatsiana
+    - [solution-array-difference.js](#srcdifferencedifference-tatsianasolution-array-differencejs)
 - intersection
   - template-solution
     - [intersection.js](#srcintersectiontemplate-solutionintersectionjs)
@@ -39,6 +43,42 @@
 <!-- BEGIN DOCS -->
 
 # /deep-flat
+
+## /template-deep-flat
+
+<details><summary><a href="../../src/deep-flat/template-deep-flat/solution-deep-flat.js" id="srcdeep-flattemplate-deep-flatsolution-deep-flatjs">../src/deep-flat/template-deep-flat/solution-deep-flat.js</a></summary>
+
+<a name="deepFlat"></a>
+
+## deepFlat ⇒ <code>Array</code>
+
+Converts a nested array into a single array with no nesting.
+
+It returns a new array and there are no side-effects.
+
+**Returns**: <code>Array</code> - Returns the new flattened array.
+
+| Param   | Type               | Default         | Description           |
+| ------- | ------------------ | --------------- | --------------------- |
+| [array] | <code>Array</code> | <code>[]</code> | The array to flatten. |
+
+**Example**
+
+```js
+deepFlat([1, [2, [3, [4]], 5]]);
+// -> [1, 2, 3, 4, 5]
+```
+
+**Example**
+
+```js
+deepFlat(["a", ["b", [["c"], ["d"]], "e"]]);
+// -> ['a', 'b', 'c', 'd', 'e']
+```
+
+</details>
+
+---
 
 ## /template-solution
 
@@ -66,9 +106,9 @@ It returns a new array and there are no side-effects
 
 # /difference
 
-## /template-solution
+## /difference-moamin
 
-<details><summary><a href="../../src/difference/template-solution/difference.js" id="srcdifferencetemplate-solutiondifferencejs">../src/difference/template-solution/difference.js</a></summary>
+<details><summary><a href="../../src/difference/difference-moamin/difference.js" id="srcdifferencedifference-moamindifferencejs">../src/difference/difference-moamin/difference.js</a></summary>
 
 <a name="difference"></a>
 
@@ -91,6 +131,43 @@ Repeated values are not duplicated in the return value, and the order of result 
 
 ---
 
+## /difference-tatsiana
+
+<details><summary><a href="../../src/difference/difference-tatsiana/solution-array-difference.js" id="srcdifferencedifference-tatsianasolution-array-differencejs">../src/difference/difference-tatsiana/solution-array-difference.js</a></summary>
+
+<a name="arrayDifference"></a>
+
+## arrayDifference ⇒ <code>Array</code>
+
+Write a function that removes specific values from an array.
+
+Returns a new array without specific values.
+
+Does not need to support: NaN, Infinity, -Infinity.
+
+**Returns**: <code>Array</code> - Returns the new array of filtered values.
+
+| Param    | Type               | Default         | Description            |
+| -------- | ------------------ | --------------- | ---------------------- |
+| [array]  | <code>Array</code> | <code>[]</code> | The array to inspect.  |
+| [values] | <code>Array</code> | <code>[]</code> | The values to exclude. |
+
+**Example**
+
+```js
+difference([2, 1], [2, 3]); //  [1]
+```
+
+**Example**
+
+```js
+difference([1, 2, 1], [2, 3]); //  [1]
+```
+
+</details>
+
+---
+
 ---
 
 # /intersection
@@ -98,6 +175,37 @@ Repeated values are not duplicated in the return value, and the order of result 
 ## /template-solution
 
 <details><summary><a href="../../src/intersection/template-solution/intersection.js" id="srcintersectiontemplate-solutionintersectionjs">../src/intersection/template-solution/intersection.js</a></summary>
+
+<a name="intersection"></a>
+
+## intersection ⇒ <code>Array</code>
+
+Creates an array of values that are in both the first and the second arrays.
+
+Repeated values are not duplicated in the return value, and the order of result values are determined by the first array.
+
+**Note:** This function returns a new array, and has no side-effects.
+
+**Returns**: <code>Array</code> - Returns the new array of filtered values.
+
+| Param    | Type               | Default         | Description            |
+| -------- | ------------------ | --------------- | ---------------------- |
+| [array]  | <code>Array</code> | <code>[]</code> | The array to inspect.  |
+| [values] | <code>Array</code> | <code>[]</code> | The values to include. |
+
+**Example**
+
+```js
+intersection([2, 1], [2, 3]);
+// -> [2]
+```
+
+**Example**
+
+```js
+intersection([2, 1, 2], [2, 3]);
+// -> [2]
+```
 
 </details>
 
