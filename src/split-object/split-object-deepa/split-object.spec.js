@@ -21,7 +21,7 @@ describe('Splits an object into multiple objects with one key/value', () => {
     });
     expect(received).toEqual(expected);
   });
-  it('empty object', () => {
+  it('passing empty object', () => {
     const expected = [];
     const received = splitObject({});
     expect(received).toEqual(expected);

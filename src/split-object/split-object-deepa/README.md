@@ -1,6 +1,6 @@
 # challenge name: strategy name
 
-Splits an object into multiple objects with one key/value pair each.
+Splits an object into multiple objects with one key/value pair for each.
 
 ## Strategy
 

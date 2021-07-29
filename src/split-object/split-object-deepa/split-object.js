@@ -28,7 +28,7 @@ export const splitObject = (toSeparate = {}) => {
   const separatedArray = [];
   // assigning the keys only to new variable
   const keys = Object.keys(toSeparate);
-  // for each key in the 'keys' pushing the 'key : value' to 'separatedArray'
+  // for each key in the 'keys' pushing 'key : value' to 'separatedArray'
   keys.forEach((key) => {
     separatedArray.push({ [key]: toSeparate[key] });
   });
