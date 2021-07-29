@@ -30,3 +30,9 @@ Here's a starter docstring for your solutions. Feel free to rewrite it if that h
 ```
 
 > Docstring is adapted from [lodash's difference](https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L6947)
+
+//solution
+export const intersection = (array, values) => {
+  const difference = array.filter((x) => !values.includes(x));
+  return difference;
+};
