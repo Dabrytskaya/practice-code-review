@@ -50,12 +50,12 @@ describe('intersection of positive number arrays', () => {
       );
       expect(received).toEqual(expected);
     });
-    it('arrays with one common element', () => {
+    it('arrays with one common value', () => {
       const expected = [2];
       const received = intersection([2], [2]);
       expect(received).toEqual(expected);
     });
-    it('arrays with one different element', () => {
+    it('arrays with one different value', () => {
       const expected = [];
       const received = intersection([3], [5]);
       expect(received).toEqual(expected);
