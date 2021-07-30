@@ -24,6 +24,8 @@
     - [difference.js](#srcdifferencedifference-moamindifferencejs)
   - difference-tatsiana
     - [solution-array-difference.js](#srcdifferencedifference-tatsianasolution-array-differencejs)
+  - template-solution-Moamin
+    - [difference.js](#srcdifferencetemplate-solution-Moamindifferencejs)
 - intersection
   - template-solution
     - [intersection.js](#srcintersectiontemplate-solutionintersectionjs)
@@ -162,6 +164,37 @@ difference([2, 1], [2, 3]); //  [1]
 
 ```js
 difference([1, 2, 1], [2, 3]); //  [1]
+```
+
+</details>
+
+---
+
+## /template-solution-Moamin
+
+<details><summary><a href="../../src/difference/template-solution-Moamin/difference.js" id="srcdifferencetemplate-solution-Moamindifferencejs">../src/difference/template-solution-Moamin/difference.js</a></summary>
+
+<a name="difference"></a>
+
+## difference ⇒ <code>Array</code>
+
+Creates an array of values that are in the first array, but not not in the second array.
+
+Repeated values are not duplicated in the return value, and the order of result values are determined by the first array.
+
+**Note:** This function returns a new array, and has no side-effects.
+
+**Returns**: <code>Array</code> - Returns the new array of filtered values.
+
+| Param    | Type               | Default         | Description            |
+| -------- | ------------------ | --------------- | ---------------------- |
+| [array]  | <code>Array</code> | <code>[]</code> | The array to inspect.  |
+| [values] | <code>Array</code> | <code>[]</code> | The values to exclude. |
+
+**Example**
+
+```js
+difference([2, 1], [2, 3]); //  [1]
 ```
 
 </details>
