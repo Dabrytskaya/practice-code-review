@@ -28,18 +28,16 @@ As usual, it's more important to write great solutions to easy problems than to 
 
 > [./template-solution](./template-solution)
 
-```
 /practice-code-review
   /template-solution
     /README.md
     /sandbox.js
     /solution-name.js
     /solution-name.spec.js
-```
 
-<details>
-<summary>what are all these files?</summary>
-<br>
+</details>
+</summary>what are all these files?</summary>
+</br>
 
 - **`/README.md`**:
   - **Challenge Description**: A short description of the challenge.
@@ -59,7 +57,6 @@ As usual, it's more important to write great solutions to easy problems than to 
 
 > [./src/sort-numbers/example-built-in-sort](./src/sort-numbers/example-built-in-sort)
 
-```
 /practice-code-review
   /src
     /challenge
@@ -68,7 +65,6 @@ As usual, it's more important to write great solutions to easy problems than to 
         /sandbox.js - for experimenting and logging
         /solution-name.js - for your function
         /solution-name.spec.js - for your tests
-```
 
 ---
 
@@ -172,9 +168,9 @@ This repository's [package.json](./package.json) has 4 scripts to help write the
 
 #### Documenting
 
-<details>
-<summary><code>$ npm run document</code></summary>
-<br>
+</details>
+</summary></code>$ npm run document</code></summary>
+</br>
 
 Documentation is very important for a project, it's how others know what code is in your repo and how it works. But writing documentation by hand takes a lot of time and is easy to mess up.
 
@@ -188,9 +184,9 @@ The `npm run document` script in this repository uses [jsdoc-to-markdown](https:
 
 #### Formatting
 
-<details>
-<summary><code>$ npm run format</code></summary>
-<br>
+</details>
+</summary></code>$ npm run format</code></summary>
+</br>
 
 Formatting doesn't change your code's behavior but it sure makes your code easier to read. It's hard enough to read your own code, now imaging trying to read everyone's different code!
 
@@ -202,9 +198,9 @@ The `npm run format` script in this repository uses [Prettier](https://prettier.
 
 #### Linting
 
-<details>
-<summary><code>$ npm run lint -- path/to/file.js</code></summary>
-<br>
+</details>
+</summary></code>$ npm run lint -- path/to/file.js</code></summary>
+</br>
 
 Linting is a type of **static code analysis** - that means it checks your code for mistakes _without running it_. Kind of like when you read your code to look for mistakes, but automated.
 
@@ -216,9 +212,9 @@ The `npm run lint` script uses [ESLint Node.js API](https://eslint.org/docs/deve
 
 #### Testing
 
-<details>
-<summary><code>$ npm run test -- path/to/file.spec.js</code></summary>
-<br>
+</details>
+</summary></code>$ npm run test -- path/to/file.spec.js</code></summary>
+</br>
 
 You've already practiced with tests in the last weeks, unit tests in this repository will be exactly the same - `describe`, `it` and `expect(_).toEqual(_)`. The main difference is that your tests and your function will be in two different files:
 
