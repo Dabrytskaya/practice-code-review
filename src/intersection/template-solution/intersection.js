@@ -20,9 +20,5 @@
  */
 
 export const intersection = (array = [], values = []) => {
-  // filter values that are in both the first and the second arrays
-  const newArray = array.filter((item) => values.includes(item));
-
-  // returns the new array with intersecting values
-  return newArray;
+  return array.filter((item) => values.includes(item));
 };
