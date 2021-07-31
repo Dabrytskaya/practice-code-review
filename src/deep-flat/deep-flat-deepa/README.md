@@ -22,4 +22,5 @@ const deepFlat = (array = []) =>
 
 ## Inspiration
 
-https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays
+[This article from stackoverflow.com](https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays)
+
