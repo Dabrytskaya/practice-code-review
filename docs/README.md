@@ -15,6 +15,8 @@
 <!-- BEGIN TOC -->
 
 - deep-flat
+  - deep-flat-deepa
+    - [deep-flat.js](#srcdeep-flatdeep-flat-deepadeep-flatjs)
   - template-deep-flat
     - [solution-deep-flat.js](#srcdeep-flattemplate-deep-flatsolution-deep-flatjs)
   - template-solution
@@ -49,6 +51,14 @@
 <!-- BEGIN DOCS -->
 
 # /deep-flat
+
+## /deep-flat-deepa
+
+<details><summary><a href="../../src/deep-flat/deep-flat-deepa/deep-flat.js" id="srcdeep-flatdeep-flat-deepadeep-flatjs">../src/deep-flat/deep-flat-deepa/deep-flat.js</a></summary>
+
+</details>
+
+---
 
 ## /template-deep-flat
 
