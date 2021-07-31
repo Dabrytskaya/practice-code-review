@@ -26,6 +26,8 @@
     - [solution-array-difference.js](#srcdifferencedifference-tatsianasolution-array-differencejs)
   - template-solution-Moamin
     - [difference.js](#srcdifferencetemplate-solution-Moamindifferencejs)
+- difference-firewyni
+  - [difference.js](#srcdifference-firewynidifferencejs)
 - intersection
   - intersection-firewyni
     - [intersection.js](#srcintersectionintersection-firewyniintersectionjs)
@@ -204,6 +206,14 @@ difference([2, 1], [2, 3]); //  [1]
 </details>
 
 ---
+
+---
+
+# /difference-firewyni
+
+<details><summary><a href="../../src/difference-firewyni/difference.js" id="srcdifference-firewynidifferencejs">../src/difference-firewyni/difference.js</a></summary>
+
+</details>
 
 ---
 
