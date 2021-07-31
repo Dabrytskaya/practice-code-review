@@ -35,6 +35,8 @@
 - split-object
   - split-object-deepa
     - [split-object.js](#srcsplit-objectsplit-object-deepasplit-objectjs)
+  - split-object-rosa
+    - [split-object.js](#srcsplit-objectsplit-object-rosasplit-objectjs)
   - template-solution
     - [splitObject.js](#srcsplit-objecttemplate-solutionsplitObjectjs)
 
@@ -331,6 +333,26 @@ splitObject({ name: "robs", age: 25, tall: true, userName: "stor" });
 splitObject({});
 // -> []
 ```
+
+</details>
+
+---
+
+## /split-object-rosa
+
+<details><summary><a href="../../src/split-object/split-object-rosa/split-object.js" id="srcsplit-objectsplit-object-rosasplit-objectjs">../src/split-object/split-object-rosa/split-object.js</a></summary>
+
+<a name="solutionName"></a>
+
+## solutionName ⇒ <code>array</code>
+
+Split an object into an array of objects.
+
+**Returns**: <code>array</code> - an array of objects.
+
+| Param | Type               | Default         | Description                                     |
+| ----- | ------------------ | --------------- | ----------------------------------------------- |
+| [obj] | <code>array</code> | <code>{}</code> | split an object to be into an array of objects. |
 
 </details>
 
