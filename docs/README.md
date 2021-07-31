@@ -24,14 +24,20 @@
     - [difference.js](#srcdifferencedifference-moamindifferencejs)
   - difference-tatsiana
     - [solution-array-difference.js](#srcdifferencedifference-tatsianasolution-array-differencejs)
+  - solution-rosa
+    - [solution-name.js](#srcdifferencesolution-rosasolution-namejs)
   - template-solution-Moamin
     - [difference.js](#srcdifferencetemplate-solution-Moamindifferencejs)
 - intersection
+  - intersection-rosa
+    - [solution-name.js](#srcintersectionintersection-rosasolution-namejs)
   - template-solution
     - [intersection.js](#srcintersectiontemplate-solutionintersectionjs)
 - sort-numbers
   - example-built-in-sort
     - [sort-numbers.js](#srcsort-numbersexample-built-in-sortsort-numbersjs)
+  - sort-rosa
+    - [solution-name.js](#srcsort-numberssort-rosasolution-namejs)
 - split-object
   - split-object-deepa
     - [split-object.js](#srcsplit-objectsplit-object-deepasplit-objectjs)
@@ -172,6 +178,27 @@ difference([1, 2, 1], [2, 3]); //  [1]
 
 ---
 
+## /solution-rosa
+
+<details><summary><a href="../../src/difference/solution-rosa/solution-name.js" id="srcdifferencesolution-rosasolution-namejs">../src/difference/solution-rosa/solution-name.js</a></summary>
+
+<a name="solutionName"></a>
+
+## solutionName ⇒ <code>array</code>
+
+return an array of items which exits in an firstArray and it doesn't exist in secondArray.
+
+**Returns**: <code>array</code> - array of item.
+
+| Param         | Type               | Default         | Description |
+| ------------- | ------------------ | --------------- | ----------- |
+| [firstArray]  | <code>array</code> | <code>[]</code> | .           |
+| [secondArray] | <code>array</code> | <code>[]</code> | .           |
+
+</details>
+
+---
+
 ## /template-solution-Moamin
 
 <details><summary><a href="../../src/difference/template-solution-Moamin/difference.js" id="srcdifferencetemplate-solution-Moamindifferencejs">../src/difference/template-solution-Moamin/difference.js</a></summary>
@@ -206,6 +233,27 @@ difference([2, 1], [2, 3]); //  [1]
 ---
 
 # /intersection
+
+## /intersection-rosa
+
+<details><summary><a href="../../src/intersection/intersection-rosa/solution-name.js" id="srcintersectionintersection-rosasolution-namejs">../src/intersection/intersection-rosa/solution-name.js</a></summary>
+
+<a name="solutionName"></a>
+
+## solutionName ⇒ <code>array</code>
+
+return an array of items which exits in an firstArray and secondArray.
+
+**Returns**: <code>array</code> - array of item.
+
+| Param         | Type               | Default         | Description |
+| ------------- | ------------------ | --------------- | ----------- |
+| [firstArray]  | <code>array</code> | <code>[]</code> | .           |
+| [secondArray] | <code>array</code> | <code>[]</code> | .           |
+
+</details>
+
+---
 
 ## /template-solution
 
@@ -283,6 +331,26 @@ sortNumbers([1.5, 1, -1.5, 0, -1]);
 sortNumbers([-1, 0, 1]);
 // -> [-1, 0, 1]
 ```
+
+</details>
+
+---
+
+## /sort-rosa
+
+<details><summary><a href="../../src/sort-numbers/sort-rosa/solution-name.js" id="srcsort-numberssort-rosasolution-namejs">../src/sort-numbers/sort-rosa/solution-name.js</a></summary>
+
+<a name="solutionName"></a>
+
+## solutionName ⇒ <code>array</code>
+
+sorting an array of number from the smallest to the biggest.
+
+**Returns**: <code>array</code> - sorted array of number
+
+| Param            | Type               | Default         | Description |
+| ---------------- | ------------------ | --------------- | ----------- |
+| [arrayOfNumbers] | <code>array</code> | <code>[]</code> | .           |
 
 </details>
 
