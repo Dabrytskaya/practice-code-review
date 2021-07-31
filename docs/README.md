@@ -26,7 +26,11 @@
     - [solution-array-difference.js](#srcdifferencedifference-tatsianasolution-array-differencejs)
   - template-solution-Moamin
     - [difference.js](#srcdifferencetemplate-solution-Moamindifferencejs)
+- difference-firewyni
+  - [difference.js](#srcdifference-firewynidifferencejs)
 - intersection
+  - intersection-firewyni
+    - [intersection.js](#srcintersectionintersection-firewyniintersectionjs)
   - template-solution
     - [intersection.js](#srcintersectiontemplate-solutionintersectionjs)
 - sort-numbers
@@ -205,7 +209,54 @@ difference([2, 1], [2, 3]); //  [1]
 
 ---
 
+# /difference-firewyni
+
+<details><summary><a href="../../src/difference-firewyni/difference.js" id="srcdifference-firewynidifferencejs">../src/difference-firewyni/difference.js</a></summary>
+
+</details>
+
+---
+
 # /intersection
+
+## /intersection-firewyni
+
+<details><summary><a href="../../src/intersection/intersection-firewyni/intersection.js" id="srcintersectionintersection-firewyniintersectionjs">../src/intersection/intersection-firewyni/intersection.js</a></summary>
+
+<a name="intersection"></a>
+
+## intersection ⇒ <code>Array</code>
+
+Creates an array of values that are in both the first and the second arrays.
+
+Repeated values are not duplicated in the return value, and the order of result values are determined by the first array.
+
+**Note:** This function returns a new array, and has no side-effects.
+
+**Returns**: <code>Array</code> - Returns the new array of filtered values.
+
+| Param    | Type               | Default         | Description            |
+| -------- | ------------------ | --------------- | ---------------------- |
+| [array]  | <code>Array</code> | <code>[]</code> | The array to inspect.  |
+| [values] | <code>Array</code> | <code>[]</code> | The values to include. |
+
+**Example**
+
+```js
+intersection([2, 1], [2, 3]);
+// -> [2]
+```
+
+**Example**
+
+```js
+intersection([2, 1, 2], [2, 3]);
+// -> [2]
+```
+
+</details>
+
+---
 
 ## /template-solution
 
